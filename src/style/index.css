@@ -1,0 +1,26 @@
+:root {
+  --primarycolor: #3FB984;
+  --secondarycolor: #31475E;
+  --errorcolor: #BB3650;
+}
+
+.primary {
+  color: var(--primarycolor) !important;
+}
+
+.secondary {
+  color: var(--secondarycolor) !important;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.center {
+  justify-content: center;
+} 
+
+.error--text div, .error--text label, .error--text i {
+  color: var(--errorcolor) !important;
+  caret-color: var(--errorcolor) !important;
+}

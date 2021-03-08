@@ -1,0 +1,20 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+- url: /(.*\.(js|css|png|json|jpg))$
+  static_files: dist/\1
+  secure: always
+  upload: dist/.*\.(js|css|png|json|jpg)$
+  # catch all handler to index.html
+- url: /.*
+  static_files: dist/index.html
+  secure: always
+  upload: dist/index.html
+skip_files:
+- node_modules/
+- .gitignore
+- src/
+- public/
+- babel.config.js
+- ^(.*/)?\..*$

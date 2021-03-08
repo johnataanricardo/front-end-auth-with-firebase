@@ -1,0 +1,33 @@
+.sign-up-card {
+  margin-top: -40px !important;
+  overflow: hidden;
+}
+
+.logo {
+  justify-content: center;
+}
+
+.form {
+  padding: 0px 20px 0px 20px;
+}
+
+.accept-terms {
+  margin-top: 0px;
+  margin-left: 25px;
+}
+
+.submit-button {
+  font-weight: bold;
+  font-size: 15px;
+  width: 95%;
+}
+
+.sign-in {  
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 5%;  
+}
+
+.sign-in a {
+  margin-left: 5px;
+}
